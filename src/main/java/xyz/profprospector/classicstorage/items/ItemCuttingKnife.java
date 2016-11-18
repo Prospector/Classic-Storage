@@ -1,4 +1,4 @@
-package xyz.profprospector.classicstorage;
+package xyz.profprospector.classicstorage.items;
 
 import com.raoulvdberge.refinedstorage.RS;
 import net.minecraft.item.Item;

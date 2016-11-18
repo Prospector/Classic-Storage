@@ -1,11 +1,11 @@
-package xyz.profprospector.classicstorage;
+package xyz.profprospector.classicstorage.compat;
 
-import com.raoulvdberge.refinedstorage.RSItems;
 import mezz.jei.api.BlankModPlugin;
 import mezz.jei.api.IJeiHelpers;
 import mezz.jei.api.IModRegistry;
 import mezz.jei.api.ISubtypeRegistry;
 import net.minecraft.item.ItemStack;
+import xyz.profprospector.classicstorage.ClassicStorage;
 
 import javax.annotation.Nonnull;
 
@@ -20,9 +20,9 @@ public class CSJeiPlugin extends BlankModPlugin {
                     IModRegistry registry) {
         IJeiHelpers jeiHelpers = registry.getJeiHelpers();
 
-        jeiHelpers.getItemBlacklist().addItemToBlacklist(new ItemStack(RSItems.PROCESSOR, 1, 0));
-        jeiHelpers.getItemBlacklist().addItemToBlacklist(new ItemStack(RSItems.PROCESSOR, 1, 3));
-        jeiHelpers.getItemBlacklist().addItemToBlacklist(new ItemStack(RSItems.PROCESSOR, 1, 6));
+        for (ItemStack stack : ClassicStorage.hide) {
+            jeiHelpers.getItemBlacklist().addItemToBlacklist(stack);
+        }
     }
 
     @Override

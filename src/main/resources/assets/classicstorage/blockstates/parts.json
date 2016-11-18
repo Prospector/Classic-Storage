@@ -1,0 +1,44 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "builtin/generated",
+    "textures": {
+      "layer0": "blocks/dirt"
+    },
+    "transform": "forge:default-item"
+  },
+  "variants": {
+    "type": {
+      "basicassembly": {
+        "textures": {
+          "layer0": "classicstorage:items/basicAssembly"
+        }
+      },
+      "advancedassembly": {
+        "textures": {
+          "layer0": "classicstorage:items/advancedAssembly"
+        }
+      },
+      "basicprocessor": {
+        "textures": {
+          "layer0": "classicstorage:items/basicProcessor"
+        }
+      },
+      "advancedprocessor": {
+        "textures": {
+          "layer0": "classicstorage:items/advancedProcessor"
+        }
+      },
+      "functioncore": {
+        "textures": {
+          "layer0": "classicstorage:items/functionCore"
+        }
+      },
+      "quartzfiber": {
+        "textures": {
+          "layer0": "classicstorage:items/quartzfiber"
+        }
+      }
+    }
+  }
+}
