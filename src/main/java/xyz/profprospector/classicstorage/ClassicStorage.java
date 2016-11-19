@@ -35,7 +35,7 @@ import java.util.List;
 /**
  * Created by McKeever on 23-Oct-16.
  */
-@Mod(modid = "classicstorage", name = "Classic Storage", version = "1.0.0", dependencies = "required-after:refinedstorage;required-after:JEI;after:*", acceptedMinecraftVersions = "[1.10.2]")
+@Mod(modid = "classicstorage", name = "Classic Storage", version = "@MODVERSION@", dependencies = "required-after:refinedstorage;required-after:JEI;after:*", acceptedMinecraftVersions = "[1.10.2]")
 public class ClassicStorage {
 
     @Mod.Instance("classicstorage")

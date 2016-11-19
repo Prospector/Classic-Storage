@@ -27,9 +27,15 @@ repositories {
     }
 }
 
-version = "1.10.2-1.0.0"
+version = "1.0.0"
+
+def ENV = System.getenv()
+if (ENV.BUILD_NUMBER) {
+    version = version + ".build" + "${System.getenv().BUILD_NUMBER}"
+}
+
 group= "xyz.profprospector.classicstorage"
-archivesBaseName = "classicstorage"
+archivesBaseName = "[1.10.2]Classic-Storage"
 
 sourceCompatibility = targetCompatibility = "1.6"
 compileJava {
@@ -39,6 +45,7 @@ compileJava {
 minecraft {
     version = "1.10.2-12.18.2.2125"
     runDir = "run"
+    replace "@MODVERSION@", project.version
     mappings = "snapshot_20161105"
 }
 

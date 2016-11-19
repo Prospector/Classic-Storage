@@ -1,0 +1,21 @@
+[
+{
+  "modid": "classicstorage",
+  "name": "Classic Storage",
+  "description": "Make Refined Storage recipes be more AE1-like",
+  "version": "$version",
+  "mcversion": "$mcversion",
+  "url": "https://github.com/ProfessorProspector/Classic-Storage",
+  "updateUrl": "",
+  "authorList": [
+    "Prospector"
+  ],
+  "credits": "CyanideX",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
