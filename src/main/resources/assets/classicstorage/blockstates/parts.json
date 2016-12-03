@@ -11,27 +11,27 @@
     "type": {
       "basicassembly": {
         "textures": {
-          "layer0": "classicstorage:items/basicAssembly"
+          "layer0": "classicstorage:items/basicassembly"
         }
       },
       "advancedassembly": {
         "textures": {
-          "layer0": "classicstorage:items/advancedAssembly"
+          "layer0": "classicstorage:items/advancedassembly"
         }
       },
       "basicprocessor": {
         "textures": {
-          "layer0": "classicstorage:items/basicProcessor"
+          "layer0": "classicstorage:items/basicprocessor"
         }
       },
       "advancedprocessor": {
         "textures": {
-          "layer0": "classicstorage:items/advancedProcessor"
+          "layer0": "classicstorage:items/advancedprocessor"
         }
       },
       "functioncore": {
         "textures": {
-          "layer0": "classicstorage:items/functionCore"
+          "layer0": "classicstorage:items/functioncore"
         }
       },
       "quartzfiber": {
